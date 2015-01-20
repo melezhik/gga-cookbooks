@@ -72,6 +72,22 @@ Vagrant.configure(2) do |config|
 	config.berkshelf.enabled = true
 
  	config.vm.provision "chef_solo" do |chef|
-    		chef.add_recipe "dart"
+
+    chef.add_recipe "dart"
+
+	chef.json = {
+
+  		"project" => 'foo',
+	  	"project_info" => {
+			"pinpromote" => { 
+				"source" => 'archive',
+				"version" => '0.1.2'	
+			}
+		}
+
+     }
+
   	end
+
+
 end
