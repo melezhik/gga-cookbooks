@@ -2,16 +2,17 @@ source "https://supermarket.getchef.com"
 metadata
 
 cookbook 'java'
-cookbook 'dart', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\dart'
-cookbook 'artifact', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\artifact'
+cookbook 'dart', path: /home/melezhik/projects/novartis/dart'
+cookbook 'artifact', path: /home/melezhik/projects/novartis/artifact'
 
-cookbook 'tomcat6', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\tomcat6'
+cookbook 'tomcat6', path: /home/melezhik/projects/novartis/tomcat6'
 
-cookbook 'ci', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\ci'
-cookbook 'glpi', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\glpi'
-cookbook 'nibr-yum-epel', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\nibr-yum-epel'
-cookbook 'nis', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\nis'
-cookbook 'nibr-base', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\nibr-base'
-cookbook 'nibr-sudo', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\nibr-sudo'
-cookbook 'cidv2', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\cidv2'
-cookbook 'nxlog', path: 'C:\Users\Aleksei_Melezhik\Documents\cookbooks\cookbooksnew\nxlog'
+cookbook 'ci', path: /home/melezhik/projects/novartis/ci'
+cookbook 'glpi', path: /home/melezhik/projects/novartis/glpi'
+cookbook 'nibr-yum-epel', path: /home/melezhik/projects/novartis/nibr-yum-epel'
+cookbook 'nis', path: /home/melezhik/projects/novartis/nis'
+cookbook 'nibr-base', path: /home/melezhik/projects/novartis/nibr-base'
+cookbook 'nibr-sudo', path: /home/melezhik/projects/novartis/nibr-sudo'
+cookbook 'cidv2', path: /home/melezhik/projects/novartis/cidv2'
+cookbook 'nxlog', path: /home/melezhik/projects/novartis/nxlog'
+
